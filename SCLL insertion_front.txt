@@ -10,8 +10,8 @@ void insertAtFront(int data)
 {
 	struct node* top;
 	temp = (struct node*)malloc(sizeof(struct node));
-    /// //this is change edit 2.09 in new branch//////
-////////////generate pull request////////////////
+    /// //edit by dhanush//////
+////////////generate pull request new version////////////////
 	if (last == NULL) 
 	{
 		temp->in = data;
@@ -48,4 +48,4 @@ int main()
 	viewList();
 	return 0;
 }
-//////////////edited version2.09//////////////
+//////////////this is dhanush edit//////////////
