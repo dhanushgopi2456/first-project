@@ -10,20 +10,21 @@ void insertAtFront(int data)
 {
 	struct node* top;
 	temp = (struct node*)malloc(sizeof(struct node));
+     this is change edit in new branch
 	if (last == NULL) 
 	{
 		temp->in = data;
 		temp->next = temp;
-		last = temp;
+		
 	}
 	else 
 	{
 		temp->in = bottom;
-		temp->next = last->next;
+		temp->next = last->prev;
 		prev->next = temp;
 	}
 }
-void viewList()
+void viewchange()
 {
 	if (last == NULL)
 		printf("\nList is empty\n");
