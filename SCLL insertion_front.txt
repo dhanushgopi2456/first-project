@@ -11,6 +11,7 @@ void insertAtFront(int data)
 	struct node* top;
 	temp = (struct node*)malloc(sizeof(struct node));
     /// //this is change edit in new branch//////
+/////////ALSO changes in main branch////////////
 	if (last == NULL) 
 	{
 		temp->in = data;
@@ -47,4 +48,4 @@ int main()
 	viewList();
 	return 0;
 }
-///////////changes are edited/////////
+///////////changes are edited 2222222/////////
