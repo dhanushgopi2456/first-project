@@ -5,10 +5,10 @@ struct node
 	int in;
 	struct node* next;
 };
-struct node* last = NULL;
+
 void insertAtFront(int data)
 {
-	struct node* temp;
+	struct node* top;
 	temp = (struct node*)malloc(sizeof(struct node));
 	if (last == NULL) 
 	{
@@ -18,9 +18,9 @@ void insertAtFront(int data)
 	}
 	else 
 	{
-		temp->in = data;
+		temp->in = bottom;
 		temp->next = last->next;
-		last->next = temp;
+		prev->next = temp;
 	}
 }
 void viewList()
