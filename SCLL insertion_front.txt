@@ -1,3 +1,4 @@
+developer is there i the code
 #include <stdio.h>
 #include <stdlib.h>
 struct node 
