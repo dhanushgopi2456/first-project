@@ -10,7 +10,7 @@ void insertAtFront(int data)
 {
 	struct node* top;
 	temp = (struct node*)malloc(sizeof(struct node));
-     this is change edit in new branch
+    /// //this is change edit in new branch//////
 	if (last == NULL) 
 	{
 		temp->in = data;
